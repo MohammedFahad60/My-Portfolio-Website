@@ -87,7 +87,7 @@
   color: #555;
 
   font-family: monospace;
-  font-size: 9px;
+  font-size: 10px;
 
   letter-spacing: 0.08em;
 }
@@ -129,9 +129,9 @@
 
   color: #888;
 
-  font-size: 15px;
+  font-size: 16px;
 
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 
@@ -154,7 +154,7 @@
 
   font-family: monospace;
 
-  font-size: 10px;
+  font-size: 11px;
 
   transition: 0.2s ease;
 }
@@ -199,7 +199,7 @@
 
   color: #777;
 
-  font-size: 13px;
+  font-size: 14px;
 
   line-height: 1.7;
 }
@@ -226,7 +226,7 @@
 
   font-family: monospace;
 
-  font-size: 9px;
+  font-size: 10px;
 }
 
 
@@ -241,7 +241,7 @@
 
   font-family: monospace;
 
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .projects-cta h2 {
@@ -278,7 +278,7 @@
   }
 
   .projects-header p {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .project-card {

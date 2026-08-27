@@ -86,7 +86,7 @@
   color: #555;
 
   font-family: monospace;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 
@@ -127,9 +127,9 @@
 
   color: #888;
 
-  font-size: 15px;
+  font-size: 16px;
 
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 
@@ -170,7 +170,7 @@
 
   color: #777;
 
-  font-size: 13px;
+  font-size: 14px;
 
   line-height: 1.6;
 }
@@ -197,7 +197,7 @@
 
   font-family: monospace;
 
-  font-size: 9px;
+  font-size: 10px;
 }
 
 
@@ -269,9 +269,9 @@
 
   color: #777;
 
-  font-size: 13px;
+  font-size: 14px;
 
-  line-height: 1.7;
+  line-height: 1.6;
 }
 
 
@@ -286,7 +286,7 @@
 
   font-family: monospace;
 
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .current-focus h2 {
@@ -308,9 +308,9 @@
 
   color: #777;
 
-  font-size: 15px;
+  font-size: 16px;
 
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 
@@ -333,7 +333,7 @@
   }
 
   .experience-header p {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .experience-main {

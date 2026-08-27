@@ -9,10 +9,12 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Contact from "./pages/Contact";
+import CustomCursor from "./components/CustomCursor";
 
 export default function App() {
   return (
     <BrowserRouter>
+      <CustomCursor />
       <Navbar />
 
       <PageTransition />

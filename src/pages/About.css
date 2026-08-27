@@ -64,7 +64,7 @@
   color: #555;
 
   font-family: monospace;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .about-side-label span {
@@ -90,8 +90,8 @@
 .about-content p {
   color: #858585;
 
-  font-size: 16px;
-  line-height: 1.85;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 
@@ -113,8 +113,8 @@
   color: #555;
 
   font-family: monospace;
-  font-size: 10px;
-  letter-spacing: 0.08em;
+  font-size: 11px;
+  letter-spacing: 0.1em;
 }
 
 .section-heading span:first-child {
@@ -161,7 +161,7 @@
 .skill small {
   color: #444;
   font-family: monospace;
-  font-size: 9px;
+  font-size: 10px;
 }
 
 .skill span {
@@ -185,7 +185,7 @@
 .education-row > span {
   color: #555;
   font-family: monospace;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .education-row h3 {
@@ -196,7 +196,7 @@
 .education-row p {
   margin: 0;
   color: #666;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .education-row strong {
@@ -244,8 +244,8 @@
 
   color: #777;
 
-  font-size: 13px;
-  line-height: 1.7;
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 
@@ -259,7 +259,7 @@
   color: #d8ff3e;
 
   font-family: monospace;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .about-bottom h2 {
@@ -293,7 +293,7 @@
   }
 
   .about-hero > p {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .about-profile {
@@ -307,7 +307,7 @@
   }
 
   .about-content p {
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .about-section {
@@ -352,7 +352,7 @@
   }
 
   .section-heading {
-    font-size: 9px;
+    font-size: 11px;
   }
 }
 
