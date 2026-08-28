@@ -26,20 +26,20 @@ export const experiences: Experience[] = [
     responsibilities: ["Processed and validated datasets containing 5,000+ records.", "Performed data preprocessing and quality checks using Python.", "Worked with TensorFlow for machine-learning experimentation.", "Analyzed model-related data and debugging issues."],
   },
   {
-    id: "independent-projects",
+    id: "MindMatrix",
     number: "02",
-    company: "Independent Projects",
-    role: "FULL STACK DEVELOPER",
-    type: "PROJECT WORK",
-    startDate: "2025",
-    endDate: "2026",
+    company: "MindMatrix Pvt. Ltd.",
+    role: "FULL STACK DEVELOPER INTERN",
+    type: "INTERNSHIP",
+    startDate: "Dec 2025",
+    endDate: "May 2026",
     description: "Designed and developed multiple practical software projects across web development, backend systems, databases, AI and analytics.",
     technologies: ["React", "Node.js", "Java", "Python", "MySQL", "Git"],
     responsibilities: ["Built full-stack applications with frontend, backend and database layers.", "Designed REST APIs and integrated persistent data storage.", "Developed responsive web interfaces for desktop and mobile.", "Worked with Git and GitHub for source control and project management."],
   },
 ];
 
-export const education = [
-  { period: "2022 — 2026", title: "B.E. Information Science & Engineering", detail: "Engineering Degree", result: "8.98 CGPA" },
-  { period: "2019 — 2022", title: "Diploma in Engineering", detail: "Acharya Patashala Polytechnic", result: "9.00 CGPA" },
-];
+// export const education = [
+//   { period: "2022 — 2026", title: "B.E. Information Science & Engineering", detail: "Engineering Degree", result: "8.98 CGPA" },
+//   { period: "2019 — 2022", title: "Diploma in Engineering", detail: "Acharya Patashala Polytechnic", result: "9.00 CGPA" },
+// ];
