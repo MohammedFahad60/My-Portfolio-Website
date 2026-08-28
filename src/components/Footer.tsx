@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { contact } from "../data/contact";
 import "./Footer.css";
 
 export default function Footer() {
@@ -34,17 +35,10 @@ export default function Footer() {
 
             <span>CONNECT</span>
 
-            <a href="#" target="_blank" rel="noreferrer">
-              GITHUB ↗
-            </a>
-
-            <a href="#" target="_blank" rel="noreferrer">
-              LINKEDIN ↗
-            </a>
-
-            <a href="mailto:your-email@example.com">
-              EMAIL ↗
-            </a>
+            {contact.github && <a href={contact.github} target="_blank" rel="noreferrer">GITHUB ↗</a>}
+            {contact.linkedin && <a href={contact.linkedin} target="_blank" rel="noreferrer">LINKEDIN ↗</a>}
+            {contact.email && <a href={`mailto:${contact.email}`}>EMAIL ↗</a>}
+            {!contact.github && !contact.linkedin && !contact.email && <span>CONTACT DETAILS NOT CONFIGURED</span>}
 
           </div>
 

@@ -5,11 +5,13 @@ import Footer from "./components/Footer";
 import PageTransition from "./components/PageTransition";
 
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Experience from "./pages/Experience";
-import Contact from "./pages/Contact";
+import About from "./pages/About.tsx";
+import Projects from "./pages/Projects.tsx";
+import Experience from "./pages/Experience.tsx";
+import Contact from "./pages/Contact.tsx";
 import CustomCursor from "./components/CustomCursor";
+import ProjectDetail from "./pages/ProjectDetail";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
   return (
@@ -23,8 +25,10 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/:slug" element={<ProjectDetail />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
       <Footer />
