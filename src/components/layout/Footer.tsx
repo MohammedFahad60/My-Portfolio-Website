@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { contact } from "../data/contact";
+import { contact } from "../../data/contact";
 import "./Footer.css";
 
 export default function Footer() {

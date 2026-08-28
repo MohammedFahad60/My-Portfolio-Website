@@ -1,5 +1,6 @@
 import { useState, type ChangeEvent, type FormEvent } from "react";
-import { sendContactMessage, type ContactMessage } from "../../services/contactService";
+import { sendContactMessage } from "../../services/contactService";
+import type { ContactMessage } from "../../types/contact";
 
 type FormErrors = Partial<Record<keyof ContactMessage, string>>;
 type FormStatus = "idle" | "submitting" | "success" | "error";

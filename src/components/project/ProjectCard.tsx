@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import type { Project } from "../data/projects";
-import Reveal from "./Reveal";
+import type { Project } from "../../types/project";
+import Reveal from "../Reveal";
 import ProjectTechStack from "./ProjectTechStack";
 import ProjectVisual from "./ProjectVisual";
 

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { Experience } from "../../data/experience";
+import type { Experience } from "../../types/experience";
 import Reveal from "../Reveal";
 import TimelineNode from "./TimelineNode";
 

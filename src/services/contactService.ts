@@ -1,10 +1,4 @@
-export interface ContactMessage {
-  name: string;
-  email: string;
-  subject: string;
-  message: string;
-  website?: string;
-}
+import type { ContactMessage } from "../types/contact";
 
 export async function sendContactMessage(data: ContactMessage): Promise<void> {
   const response = await fetch("/api/contact", {

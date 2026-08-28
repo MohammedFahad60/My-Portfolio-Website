@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Reveal from "../components/Reveal";
+import Reveal from "../../components/Reveal";
 import "./About.css";
 
 const skillGroups = [

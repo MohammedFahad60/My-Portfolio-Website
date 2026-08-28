@@ -1,17 +1,17 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import PageTransition from "./components/PageTransition";
+import Navbar from "../components/layout/Navbar";
+import Footer from "../components/layout/Footer";
+import PageTransition from "../components/navigation/PageTransition";
 
-import Home from "./pages/Home";
-import About from "./pages/About.tsx";
-import Projects from "./pages/Projects.tsx";
-import Experience from "./pages/Experience.tsx";
-import Contact from "./pages/Contact.tsx";
-import CustomCursor from "./components/CustomCursor";
-import ProjectDetail from "./pages/ProjectDetail";
-import NotFound from "./pages/NotFound";
+import Home from "../pages/Home/Home";
+import About from "../pages/About/About";
+import Projects from "../pages/Projects/Projects";
+import Experience from "../pages/Experience/Experience";
+import Contact from "../pages/Contact/Contact";
+import CustomCursor from "../components/CustomCursor";
+import ProjectDetail from "../pages/ProjectDetail/ProjectDetail";
+import NotFound from "../pages/NotFound/NotFound";
 
 export default function App() {
   return (

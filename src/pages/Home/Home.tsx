@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
-import HeroScene from "../components/3d/HeroScene.tsx";
-import Reveal from "../components/Reveal";
-import TiltCard from "../components/TiltCard";
-import SectionHeading from "../components/SectionHeading";
+import HeroScene from "../../components/3d/HeroScene.tsx";
+import Reveal from "../../components/Reveal";
+import TiltCard from "../../components/TiltCard";
+import SectionHeading from "../../components/SectionHeading";
 
 const projects = [
   {

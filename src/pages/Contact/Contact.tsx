@@ -1,8 +1,8 @@
-import ContactForm from "../components/contact/ContactForm";
-import ContactInfo from "../components/contact/ContactInfo";
-import ContactVisual from "../components/contact/ContactVisual";
-import Reveal from "../components/Reveal";
-import { contact } from "../data/contact";
+import ContactForm from "../../components/contact/ContactForm";
+import ContactInfo from "../../components/contact/ContactInfo";
+import ContactVisual from "../../components/contact/ContactVisual";
+import Reveal from "../../components/Reveal";
+import { contact } from "../../data/contact";
 import "./Contact.css";
 
 export default function Contact() {

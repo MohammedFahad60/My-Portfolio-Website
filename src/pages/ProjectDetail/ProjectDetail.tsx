@@ -1,8 +1,8 @@
 import { Link, useParams } from "react-router-dom";
-import { projects } from "../data/projects";
-import ProjectNavigation from "../components/ProjectNavigation";
-import ProjectTechStack from "../components/ProjectTechStack";
-import ProjectVisual from "../components/ProjectVisual";
+import { projects } from "../../data/projects";
+import ProjectNavigation from "../../components/navigation/ProjectNavigation";
+import ProjectTechStack from "../../components/project/ProjectTechStack";
+import ProjectVisual from "../../components/project/ProjectVisual";
 import "./ProjectDetail.css";
 
 export default function ProjectDetail() {

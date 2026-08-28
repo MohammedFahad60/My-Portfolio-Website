@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import ExperienceTimeline from "../components/experience/ExperienceTimeline";
-// import EducationSection from "../components/experience/EducationSection";
-import JourneySection from "../components/experience/JourneySection";
-import { experiences } from "../data/experience";
+import ExperienceTimeline from "../../components/experience/ExperienceTimeline";
+// import EducationSection from "../../components/experience/EducationSection";
+import JourneySection from "../../components/experience/JourneySection";
+import { experiences } from "../../data/experience";
 import "./Experience.css";
 
 export default function Experience() {

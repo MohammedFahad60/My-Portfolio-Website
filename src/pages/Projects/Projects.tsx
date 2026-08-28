@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import ProjectCard from "../components/ProjectCard";
-import ProjectNavigation from "../components/ProjectNavigation";
-import { featuredProjects, projects } from "../data/projects";
+import ProjectCard from "../../components/project/ProjectCard";
+import ProjectNavigation from "../../components/navigation/ProjectNavigation";
+import { featuredProjects, projects } from "../../data/projects";
 import "./Projects.css";
 
 export default function Projects() {

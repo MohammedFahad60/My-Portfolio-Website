@@ -1,4 +1,4 @@
-import type { Experience } from "../../data/experience";
+import type { Experience } from "../../types/experience";
 import ExperienceCard from "./ExperienceCard";
 
 export default function ExperienceTimeline({ experiences }: { experiences: Experience[] }) {
