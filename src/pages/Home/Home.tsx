@@ -60,7 +60,7 @@ export default function Home() {
 
           <div className="hero-buttons">
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/file/d/1D_-ZIeuMdMd0ZHChxO5mQAcvGW5Mvs0Z/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="button-primary"
@@ -77,7 +77,7 @@ export default function Home() {
       </section>
 
       {/* SELECTED PROJECTS */}
-      <section className="section container">
+      {/* <section className="section container">
 
         <SectionHeading index="01" label="SELECTED WORK" action={<Link to="/projects">VIEW ALL ↗</Link>} />
 
@@ -101,12 +101,12 @@ export default function Home() {
           ))}
         </div>
 
-      </section>
+      </section> */}
 
       {/* PROFILE */}
       <section className="section container">
 
-        <SectionHeading index="02" label="PROFILE" action={<Link to="/about">ABOUT ME ↗</Link>} />
+        <SectionHeading index="01" label="PROFILE" action={<Link to="/about">ABOUT ME ↗</Link>} />
 
         <Reveal className="profile-grid">
 
