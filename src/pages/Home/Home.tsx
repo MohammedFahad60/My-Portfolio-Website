@@ -2,32 +2,8 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 import HeroScene from "../../components/3d/HeroScene.tsx";
 import Reveal from "../../components/Reveal";
-// import TiltCard from "../../components/TiltCard";
 import SectionHeading from "../../components/SectionHeading";
 
-// const projects = [
-//   {
-//     number: "01",
-//     title: "Festify",
-//     description:
-//       "Festival ticket booking platform with event management and database persistence.",
-//     stack: "Java · Swing · JDBC · MySQL",
-//   },
-//   {
-//     number: "02",
-//     title: "Brain Tumor Detection",
-//     description:
-//       "Machine-learning application for image processing and tumor classification.",
-//     stack: "Python · Flask · OpenCV · ML",
-//   },
-//   {
-//     number: "03",
-//     title: "Retail Data Engineering",
-//     description:
-//       "Data cleaning, KPI analysis and business intelligence dashboard workflow.",
-//     stack: "Python · Pandas · Excel · Power BI",
-//   },
-// ];
 
 export default function Home() {
   return (
@@ -75,33 +51,6 @@ export default function Home() {
         </div>
 
       </section>
-
-      {/* SELECTED PROJECTS */}
-      {/* <section className="section container">
-
-        <SectionHeading index="01" label="SELECTED WORK" action={<Link to="/projects">VIEW ALL ↗</Link>} />
-
-        <div className="project-preview">
-          {projects.map((project) => (
-            <TiltCard className="project-preview-card" key={project.number}>
-            <Link to="/projects">
-              <div className="project-number">
-                {project.number}
-              </div>
-
-              <h2>{project.title}</h2>
-
-              <p>{project.description}</p>
-
-              <div className="project-stack">
-                {project.stack}
-              </div>
-            </Link>
-            </TiltCard>
-          ))}
-        </div>
-
-      </section> */}
 
       {/* PROFILE */}
       <section className="section container">
