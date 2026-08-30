@@ -2,32 +2,32 @@ import { Link } from "react-router-dom";
 import "./Home.css";
 import HeroScene from "../../components/3d/HeroScene.tsx";
 import Reveal from "../../components/Reveal";
-import TiltCard from "../../components/TiltCard";
+// import TiltCard from "../../components/TiltCard";
 import SectionHeading from "../../components/SectionHeading";
 
-const projects = [
-  {
-    number: "01",
-    title: "Festify",
-    description:
-      "Festival ticket booking platform with event management and database persistence.",
-    stack: "Java · Swing · JDBC · MySQL",
-  },
-  {
-    number: "02",
-    title: "Brain Tumor Detection",
-    description:
-      "Machine-learning application for image processing and tumor classification.",
-    stack: "Python · Flask · OpenCV · ML",
-  },
-  {
-    number: "03",
-    title: "Retail Data Engineering",
-    description:
-      "Data cleaning, KPI analysis and business intelligence dashboard workflow.",
-    stack: "Python · Pandas · Excel · Power BI",
-  },
-];
+// const projects = [
+//   {
+//     number: "01",
+//     title: "Festify",
+//     description:
+//       "Festival ticket booking platform with event management and database persistence.",
+//     stack: "Java · Swing · JDBC · MySQL",
+//   },
+//   {
+//     number: "02",
+//     title: "Brain Tumor Detection",
+//     description:
+//       "Machine-learning application for image processing and tumor classification.",
+//     stack: "Python · Flask · OpenCV · ML",
+//   },
+//   {
+//     number: "03",
+//     title: "Retail Data Engineering",
+//     description:
+//       "Data cleaning, KPI analysis and business intelligence dashboard workflow.",
+//     stack: "Python · Pandas · Excel · Power BI",
+//   },
+// ];
 
 export default function Home() {
   return (
