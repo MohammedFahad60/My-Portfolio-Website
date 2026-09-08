@@ -73,7 +73,7 @@ export const projects: Project[] = [
     ],
 
     status: "COMPLETED",
-    image: "./src/assets/project images/Care-AI.png",
+    image: "assets/project images/Care-AI.png",
     github: "https://github.com/MohammedFahad60/Care-AI",
     live: "https://care-ai-szir.onrender.com/",
 
