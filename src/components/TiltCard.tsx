@@ -1,6 +1,12 @@
 import { type ReactNode, useRef } from "react";
 
-export default function TiltCard({ children, className = "" }: { children: ReactNode; className?: string }) {
+export default function TiltCard({
+  children,
+  className = "",
+}: {
+  children: ReactNode;
+  className?: string;
+}) {
   const card = useRef<HTMLDivElement>(null);
   const move = (event: React.PointerEvent<HTMLDivElement>) => {
     if (event.pointerType === "touch" || !card.current) return;
@@ -16,5 +22,14 @@ export default function TiltCard({ children, className = "" }: { children: React
     card.current?.style.setProperty("--rotate-x", "0deg");
     card.current?.style.setProperty("--rotate-y", "0deg");
   };
-  return <div ref={card} className={`tilt-card ${className}`} onPointerMove={move} onPointerLeave={reset}>{children}</div>;
+  return (
+    <div
+      ref={card}
+      className={`tilt-card ${className}`}
+      onPointerMove={move}
+      onPointerLeave={reset}
+    >
+      {children}
+    </div>
+  );
 }

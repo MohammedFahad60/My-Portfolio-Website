@@ -2,7 +2,13 @@ import { useFrame } from "@react-three/fiber";
 import { useMemo, useRef } from "react";
 import * as THREE from "three";
 
-export default function ParticleField({ reducedMotion, mobile }: { reducedMotion: boolean; mobile: boolean }) {
+export default function ParticleField({
+  reducedMotion,
+  mobile,
+}: {
+  reducedMotion: boolean;
+  mobile: boolean;
+}) {
   const points = useRef<THREE.Points>(null);
   const positions = useMemo(() => {
     const count = mobile ? 220 : 650;
@@ -18,8 +24,28 @@ export default function ParticleField({ reducedMotion, mobile }: { reducedMotion
   useFrame((state) => {
     if (points.current && !reducedMotion) {
       points.current.rotation.y = state.clock.elapsedTime * 0.008;
-      points.current.rotation.x = Math.sin(state.clock.elapsedTime * 0.05) * 0.04;
+      points.current.rotation.x =
+        Math.sin(state.clock.elapsedTime * 0.05) * 0.04;
     }
   });
-  return <points ref={points} position={[0, 0, -1]}><bufferGeometry><bufferAttribute attach="attributes-position" args={[positions, 3]} count={positions.length / 3} array={positions} itemSize={3} /></bufferGeometry><pointsMaterial color="#a7b88c" size={mobile ? 0.017 : 0.021} transparent opacity={0.4} sizeAttenuation /></points>;
+  return (
+    <points ref={points} position={[0, 0, -1]}>
+      <bufferGeometry>
+        <bufferAttribute
+          attach="attributes-position"
+          args={[positions, 3]}
+          count={positions.length / 3}
+          array={positions}
+          itemSize={3}
+        />
+      </bufferGeometry>
+      <pointsMaterial
+        color="#a7b88c"
+        size={mobile ? 0.017 : 0.021}
+        transparent
+        opacity={0.4}
+        sizeAttenuation
+      />
+    </points>
+  );
 }

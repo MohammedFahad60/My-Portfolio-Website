@@ -35,7 +35,6 @@ export default function ProjectDetail() {
           title={project.title}
           slug={project.slug}
           image={project.image}
-          live={project.live}
         />
         <section className="project-detail-sections">
           {project.sections.map((section) => (

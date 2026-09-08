@@ -1,17 +1,14 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 
 export default function ProjectVisual({
   title,
   slug,
   image,
-  live,
 }: {
   title: string;
   slug: string;
   image?: string;
-  live?: string;
 }) {
-  const [isLoading, setIsLoading] = useState(Boolean(live));
   const visual = useRef<HTMLDivElement>(null);
   const move = (event: React.PointerEvent<HTMLDivElement>) => {
     if (event.pointerType === "touch" || !visual.current) return;
@@ -39,24 +36,7 @@ export default function ProjectVisual({
         <span>{slug.replaceAll("-", " / ").toUpperCase()}</span>
       </div>
       <div className="visual-content">
-        {live ? (
-          <>
-            {isLoading && <div className="visual-loading">LOADING LIVE PREVIEW...</div>}
-            <iframe
-              src={live}
-              title={`${title} live preview`}
-              onLoad={() => setIsLoading(false)}
-            />
-            <a
-              className="visual-live-button"
-              href={live}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              OPEN LIVE ↗
-            </a>
-          </>
-        ) : image ? (
+        {image ? (
           <img src={image} alt={`${title} project preview`} loading="lazy" />
         ) : (
           <div className="visual-placeholder">

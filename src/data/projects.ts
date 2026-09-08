@@ -46,10 +46,10 @@ export const projects: Project[] = [
         body: "The project is organized around a Java desktop interface, application logic and a relational database layer.",
       },
     ],
-    live: ""
+    live: "",
   },
 
-    {
+  {
     slug: "care-ai",
     number: "04",
     title: "Care AI",
@@ -73,52 +73,45 @@ export const projects: Project[] = [
     ],
 
     status: "COMPLETED",
-
+    image: "src/assets/project images/Care-AI.png",
     github: "https://github.com/MohammedFahad60/Care-AI",
-
     live: "https://care-ai-szir.onrender.com/",
 
     sections: [
       {
         label: "01 / OVERVIEW",
         title: "AI for a broader healthcare workflow.",
-        body:
-          "Care AI is a digital health and wellness platform that combines machine learning, generative AI and computer vision with practical healthcare utilities.",
+        body: "Care AI is a digital health and wellness platform that combines machine learning, generative AI and computer vision with practical healthcare utilities.",
       },
 
       {
         label: "02 / AI ENGINE",
         title: "Local ML meets generative AI.",
-        body:
-          "The platform combines a custom machine-learning model with Google's Gemini to support symptom analysis and provide contextual health guidance.",
+        body: "The platform combines a custom machine-learning model with Google's Gemini to support symptom analysis and provide contextual health guidance.",
       },
 
       {
         label: "03 / MEDICAL VISION",
         title: "Understanding visual health data.",
-        body:
-          "The computer-vision workflow accepts medical-related images such as skin images, X-rays, lab reports and medicine labels for AI-assisted analysis.",
+        body: "The computer-vision workflow accepts medical-related images such as skin images, X-rays, lab reports and medicine labels for AI-assisted analysis.",
       },
 
       {
         label: "04 / HEALTH TOOLS",
         title: "More than a symptom checker.",
-        body:
-          "The platform includes a smart diet planner, drug interaction checker, nearby healthcare locator and vitals analysis workflow.",
+        body: "The platform includes a smart diet planner, drug interaction checker, nearby healthcare locator and vitals analysis workflow.",
       },
 
       {
         label: "05 / PLATFORM",
         title: "Designed around accessibility.",
-        body:
-          "Care AI includes multilingual interaction, voice input and output, and downloadable PDF reports to make the platform more accessible and practical.",
+        body: "Care AI includes multilingual interaction, voice input and output, and downloadable PDF reports to make the platform more accessible and practical.",
       },
 
       {
         label: "06 / TECHNOLOGY",
         title: "A Python-powered AI stack.",
-        body:
-          "Python and Flask provide the application foundation, while machine learning, Gemini, OpenCV and database technologies support the intelligence and persistence layers.",
+        body: "Python and Flask provide the application foundation, while machine learning, Gemini, OpenCV and database technologies support the intelligence and persistence layers.",
       },
     ],
   },
@@ -168,7 +161,7 @@ export const projects: Project[] = [
         body: "Python, Flask, OpenCV and machine-learning tools form the working stack.",
       },
     ],
-    live: ""
+    live: "",
   },
   {
     slug: "retail-data-engineering",
@@ -215,23 +208,72 @@ export const projects: Project[] = [
         body: "Python, Pandas, Excel and Power BI combine data preparation with visual reporting.",
       },
     ],
+        image: "src/assets/project images/Retail-Sales.png",
+
     github: "https://github.com/MohammedFahad60/Retail-Sales-Data-Engineering-Project",
-    live: "https://retail-sales-data-engineering.vercel.app/"
+    live: "https://retail-sales-data-engineering.vercel.app/",
   },
   {
-    slug: "store-management-platform",
+    slug: "store-rating-platform",
     number: "04",
-    title: "Store Management Platform",
+    title: "Store Rating Platform",
     category: "FULL STACK APPLICATION",
     description:
-      "A web platform for structured customer feedback and business information.",
+      "A production-ready full-stack platform for customer ratings, business management and actionable store insights.",
     problem:
-      "Simple star ratings provide limited information about what customers actually experience.",
+      "Traditional store rating systems often reduce customer feedback to simple star scores without giving customers meaningful business information or giving store owners actionable insights.",
     solution:
-      "A structured platform for collecting meaningful customer feedback while giving businesses actionable insights.",
-    technologies: ["React", "Node.js", "Express", "MongoDB"],
-    status: "IN DEVELOPMENT",
-    sections: [],
+      "A role-based platform that connects customers, store owners and administrators through structured ratings, reviews, store information, services and operational dashboards.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express",
+      "MySQL",
+      "Sequelize",
+      "JWT",
+      "Tailwind CSS",
+    ],
+    status: "COMPLETED",
+    sections: [
+      {
+        label: "01 / OVERVIEW",
+        title: "Turning customer feedback into insight.",
+        body: "Store Rating Platform is a full-stack web application designed to connect customers with businesses through structured ratings, reviews and store information.",
+      },
+      {
+        label: "02 / CUSTOMER EXPERIENCE",
+        title: "Feedback that goes beyond a star.",
+        body: "Customers can discover stores, explore available services and submit structured ratings and reviews based on their experience.",
+      },
+      {
+        label: "03 / BUSINESS MANAGEMENT",
+        title: "Giving owners a clearer view.",
+        body: "Store owners can manage their business information and services while using customer feedback and rating data to understand their store's performance.",
+      },
+      {
+        label: "04 / ADMINISTRATION",
+        title: "Centralized platform control.",
+        body: "Role-based access separates customer, store owner and administrator capabilities, providing controlled access to platform operations and management.",
+      },
+      {
+        label: "05 / DATA & API",
+        title: "Built for reliable application workflows.",
+        body: "A Node.js and Express REST API handles authentication, store operations, ratings and business workflows, with Sequelize providing structured database access to MySQL.",
+      },
+      {
+        label: "06 / PRODUCTION",
+        title: "From local development to deployment.",
+        body: "The application is deployed with a React frontend on Vercel, an Express backend on Render and a MySQL-compatible TiDB Cloud database, with JWT authentication and production health monitoring.",
+      },
+      {
+        label: "07 / TECHNOLOGY",
+        title: "A modern full-stack stack.",
+        body: "React, Tailwind CSS, Node.js, Express, Sequelize, MySQL, JWT and REST APIs combine to deliver the complete application.",
+      },
+    ],
+    image: "src/assets/project images/Store Rating.png",
+    github: "https://github.com/MohammedFahad60/store-rating-platform",
+    live: "https://store-rating-gold.vercel.app/",
   },
   {
     slug: "web-development-projects",

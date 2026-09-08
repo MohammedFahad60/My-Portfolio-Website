@@ -48,7 +48,6 @@ export default function ProjectCard({ project }: { project: Project }) {
             title={project.title}
             slug={project.slug}
             image={project.image}
-            live={project.live}
           />
         </div>
       </article>

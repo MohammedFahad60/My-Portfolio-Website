@@ -12,6 +12,7 @@ import Contact from "../pages/Contact/Contact";
 import CustomCursor from "../components/CustomCursor";
 import ProjectDetail from "../pages/ProjectDetail/ProjectDetail";
 import NotFound from "../pages/NotFound/NotFound";
+import Certificates from "../pages/Certificates/Certificates"; 
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/certificates" element={<Certificates />} />
       </Routes>
 
       <Footer />
