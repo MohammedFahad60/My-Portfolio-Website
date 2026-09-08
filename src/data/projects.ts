@@ -1,4 +1,5 @@
 import type { Project } from "../types/project";
+image: "./src/assets/project images/Care-AI.png";
 
 export const projects: Project[] = [
   {
@@ -73,7 +74,7 @@ export const projects: Project[] = [
     ],
 
     status: "COMPLETED",
-    image: "assets/project images/Care-AI.png",
+    image: "careAiImage",
     github: "https://github.com/MohammedFahad60/Care-AI",
     live: "https://care-ai-szir.onrender.com/",
 
