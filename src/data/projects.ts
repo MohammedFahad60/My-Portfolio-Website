@@ -1,5 +1,4 @@
 import type { Project } from "../types/project";
-image: "./src/assets/project images/Care-AI.png";
 
 export const projects: Project[] = [
   {
@@ -74,7 +73,7 @@ export const projects: Project[] = [
     ],
 
     status: "COMPLETED",
-    image: "careAiImage",
+    image: "/project-images/Care-AI.png",
     github: "https://github.com/MohammedFahad60/Care-AI",
     live: "https://care-ai-szir.onrender.com/",
 
@@ -209,7 +208,7 @@ export const projects: Project[] = [
         body: "Python, Pandas, Excel and Power BI combine data preparation with visual reporting.",
       },
     ],
-        image: "./src/assets/project images/Retail-Sales.png",
+      image: "/project-images/Retail-Sales.png",
 
     github: "https://github.com/MohammedFahad60/Retail-Sales-Data-Engineering-Project",
     live: "https://retail-sales-data-engineering.vercel.app/",
@@ -272,7 +271,7 @@ export const projects: Project[] = [
         body: "React, Tailwind CSS, Node.js, Express, Sequelize, MySQL, JWT and REST APIs combine to deliver the complete application.",
       },
     ],
-    image: "./src/assets/project images/Store Rating.png",
+    image: "/project-images/Store Rating.png",
     github: "https://github.com/MohammedFahad60/store-rating-platform",
     live: "https://store-rating-gold.vercel.app/",
   },
