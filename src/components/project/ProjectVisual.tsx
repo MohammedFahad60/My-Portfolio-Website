@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useState, useRef } from "react";
 
 export default function ProjectVisual({
   title,
@@ -10,6 +10,7 @@ export default function ProjectVisual({
   image?: string;
 }) {
   const visual = useRef<HTMLDivElement>(null);
+  const [imageFailed, setImageFailed] = useState(false);
   const move = (event: React.PointerEvent<HTMLDivElement>) => {
     if (event.pointerType === "touch" || !visual.current) return;
     const box = visual.current.getBoundingClientRect();
@@ -36,8 +37,13 @@ export default function ProjectVisual({
         <span>{slug.replaceAll("-", " / ").toUpperCase()}</span>
       </div>
       <div className="visual-content">
-        {image ? (
-          <img src={image} alt={`${title} project preview`} loading="lazy" />
+        {image && !imageFailed ? (
+          <img
+            src={image}
+            alt={`${title} project preview`}
+            loading="lazy"
+            onError={() => setImageFailed(true)}
+          />
         ) : (
           <div className="visual-placeholder">
             <b>{title}</b>
